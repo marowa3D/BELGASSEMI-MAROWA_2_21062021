@@ -85,10 +85,13 @@ border-top: 1px solid blue;
 }
 /*HEADER*/
 .bordureSearch
-{
+{ 
     width: 400px;
     border-radius: 10px;
     border: 0.5px solid #f2f2f2;
+    align-content: centerb;
+    
+
 
 }
 .paddingSearch{
@@ -99,12 +102,14 @@ border-top: 1px solid blue;
     width: 230px ;
     font-size: 18px;
     color:black;
-    font-weight: bold;
+    font-weight: bold; 
 }
 .iconSize {
    height: 50px;
    width:50px ;
    border-radius: 10px 0 0 10px;
+   
+   
 }
 .buttonSearch{
     height: 50px;
@@ -112,15 +117,19 @@ border-top: 1px solid blue;
     color: black;
     cursor: pointer;
     border-radius: 0 10px 10px 0;
+    flex-direction: row;
 }
 .barredeNavigation{
+    display: flex;
     font-style: normal;
     text-align:center;
     flex-direction: column;
+
 }
 .info{
     display: flex;
     align-items: center;
+    
 
 }
 /*Hebergements*/
@@ -139,6 +148,14 @@ border-radius: 10px;
 .blocHebergements{
     padding-left: 20px;
     padding-right: 20px;
+    flex-wrap: wrap;
+}
+.cubeHebergements{
+    width: 30%;
+    height:auto;
+    background-color: white;
+    padding: 1%;
+    border-radius: 20px;
 }
 .imgHebergements1{
     background-image: url("./images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
@@ -195,9 +212,14 @@ border-radius: 10px;
     flex-wrap: wrap;
 }
 /* Filtre*/
-.margeFiltre{
+.blocFiltre{
+    display: flex;
+    width: fit-content;
+    column-gap: 10px;
     margin-top: 50px;
     margin-bottom: 40px;
+    font-weight: bold;
+
 }
 .filtretextIcons:hover >.filtretexte{
     color: #0065fc;
@@ -213,15 +235,99 @@ border-radius: 10px;
     border-radius: 0 25px 25px 0;
 }
 .filtreIcons{
-border-radius: 25px;
-width: 52px;
-height: 52px;
+display: flex;
+border-radius: 50%;
+width: 50px;
+height: 50px;
 color: #0065fc;
 background-color: #deebff;
+align-items: center;
+justify-content: center;
+
 }
 .FiltreTexticons{
 border: 2px solid #f2f2f2;
 height: 50px;
 border-radius: 30px;
  margin-right: 20px;
+}
+/*Populaire*/
+.blocPopulaires{
+    padding-left: 20px;
+    padding-right: 20px;
+    float:right;
+}
+.blocPopulaires12{
+    margin-bottom: 22px;
+}
+.cubePopulaires{
+    background-color: white;
+    height: auto;
+    padding: 1% 0 1%  1%;
+    border-radius: 20px;
+}
+.cubeDetailsPopulaires{
+    width: 60%;
+    padding-left: 5%;
+
+}
+.imgPopulaires1{
+    background-image: url("./images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 35%;
+    height: 160px;
+    border-radius: 15px 0 0 15px;
+    flex-wrap: wrap;
+}
+.imgPopulaires2{
+    background-image: url("./images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 35%;
+    height: 160px;
+    border-radius: 15px 0 0 15px;
+    flex-wrap: wrap;
+}
+.imgPopulaires3{
+    background-image: url("./images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 35%;
+    height: 160px;
+    border-radius: 15px 0 0 15px;
+    flex-wrap: wrap;
+}
+/*Avtivités*/
+.Activités{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.blocActivités{
+    width: 100%;
+    height: 600px;
+}
+.cubeActivités{
+width: auto;
+border-radius: 15px;
+box-shadow: 5px 5px 5px 1px #f2f2f2;
+}
+.titreActivités{
+    display: flex;
+    height: 70px;
+    justify-content:center ;
+    align-items: center;
+    padding-left: 5%;
+    width: 95%;
+}
+.imgActivités1{
+    background-image: url("./images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 530px;
+    border-radius: 15px 15px 0  0 ;
+    flex-wrap: wrap;   
+
+
 }
