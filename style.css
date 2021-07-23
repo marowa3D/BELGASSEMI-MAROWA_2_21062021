@@ -57,9 +57,6 @@ html, body{
     background-color: #f2f2f2;
 }
 /* NAV */
-.sizeNav {
-    height: 100px;
-}
 
 .sizeliens{
     width: 45%;
@@ -84,12 +81,32 @@ border-top: 1px solid blue;
     margin-bottom: 7px;
 }
 /*HEADER*/
+.blocRecherche{
+    display: flex;
+    height: 50px;
+    width: max-content;
+    border: #f2f2f2 5px solid;
+    border-radius: 10px;
+    align-items: center;
+}
+.blocRechercheInput{
+border-style: none;
+
+}
+.blocIconRecherche{
+    display: flex;
+    justify-content: center;
+    background-color: #f2f2f2;
+    height: 100%;
+    width: 50px;
+    align-items: center;
+}
 .bordureSearch
 { 
     width: 400px;
     border-radius: 10px;
     border: 0.5px solid #f2f2f2;
-    align-content: centerb;
+    align-content: center;
     
 
 
@@ -98,6 +115,7 @@ border-top: 1px solid blue;
     padding-left: 20px;
 }
 .recherche{
+
     height: 50px ;
     width: 230px ;
     font-size: 18px;
@@ -105,10 +123,10 @@ border-top: 1px solid blue;
     font-weight: bold; 
 }
 .iconSize {
+   display: flex;
    height: 50px;
    width:50px ;
    border-radius: 10px 0 0 10px;
-   
    
 }
 .buttonSearch{
@@ -116,14 +134,28 @@ border-top: 1px solid blue;
     width: 120px;
     color: black;
     cursor: pointer;
+
     border-radius: 0 10px 10px 0;
     flex-direction: row;
 }
-.barredeNavigation{
+.barreNavigation{
     display: flex;
-    font-style: normal;
-    text-align:center;
-    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+}
+.menuNavigation{
+display: flex;
+justify-content: space-between;
+width: 22%;
+
+
+
+}
+/*logoreservia*/
+.logo{
+height: 100%;
 
 }
 .info{
@@ -307,10 +339,21 @@ border-radius: 30px;
     width: 100%;
     height: 600px;
 }
+.blocActivités2356{
+    width: 100%;
+    height: 600px;
+}
+
+
 .cubeActivités{
 width: auto;
 border-radius: 15px;
 box-shadow: 5px 5px 5px 1px #f2f2f2;
+}
+.cubeActivités2356{
+    width: 23px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 1px #f2f2f2
 }
 .titreActivités{
     display: flex;
@@ -326,7 +369,26 @@ box-shadow: 5px 5px 5px 1px #f2f2f2;
     background-position: center;
     width: 100%;
     height: 530px;
-    border-radius: 15px 15px 0  0 ;
+    border-radius: 15px 15px 0 0 ;
+    flex-wrap: wrap;   
+}
+.imgActivités2{
+    background-image: url("./images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 250px;
+    border-radius: 15px 15px 0 0 ;
+    flex-wrap: wrap;   
+
+
+}.imgActivités3{
+    background-image: url("./images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 150px;
+    border-radius: 15px 15px 0 0 ;
     flex-wrap: wrap;   
 
 
