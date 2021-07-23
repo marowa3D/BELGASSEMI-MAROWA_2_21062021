@@ -132,11 +132,13 @@ border-style: none;
 .buttonSearch{
     height: 50px;
     width: 120px;
-    color: black;
+    color:white;
     cursor: pointer;
-
     border-radius: 0 10px 10px 0;
-    flex-direction: row;
+    background-color: #0065fc;
+    text-align: center;
+
+    
 }
 .barreNavigation{
     display: flex;
@@ -151,18 +153,14 @@ justify-content: space-between;
 width: 22%;
 
 
-
 }
 /*logoreservia*/
 .logo{
 height: 100%;
-
 }
 .info{
     display: flex;
     align-items: center;
-    
-
 }
 /*Hebergements*/
 .sizeHebergements {
@@ -247,11 +245,11 @@ border-radius: 10px;
 .blocFiltre{
     display: flex;
     width: fit-content;
-    column-gap: 10px;
+    column-gap: 50px;
     margin-top: 50px;
     margin-bottom: 40px;
     font-weight: bold;
-
+    
 }
 .filtretextIcons:hover >.filtretexte{
     color: #0065fc;
