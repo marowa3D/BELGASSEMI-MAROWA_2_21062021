@@ -91,7 +91,10 @@ border-top: 1px solid blue;
 }
 .blocRechercheInput{
 border-style: none;
-
+font-weight: bold;
+}
+.blocRechercheInput:focus {
+    outline: none;
 }
 .blocIconRecherche{
     display: flex;
@@ -151,17 +154,19 @@ border-style: none;
 display: flex;
 justify-content: space-between;
 width: 22%;
-
-
+flex-wrap: wrap;
 }
 /*logoreservia*/
 .logo{
 height: 100%;
+flex-wrap: wrap;
 }
 .info{
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
+
 /*Hebergements*/
 .sizeHebergements {
 flex: 2;
@@ -175,19 +180,34 @@ border-radius: 10px;
     margin-left: 20px;
     border-radius: 10px;
 }
+.bloc1{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 50%;
+    flex-wrap: wrap;
+
+}
+.bloc2 {
+    
+}
 .blocHebergements{
     padding-left: 20px;
     padding-right: 20px;
     flex-wrap: wrap;
+    flex-direction: column;
 }
+
 .cubeHebergements{
     width: 30%;
     height:auto;
     background-color: white;
     padding: 1%;
     border-radius: 20px;
+    flex-wrap: wrap;
 }
 .imgHebergements1{
+    display: flex;
     background-image: url("./images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
     background-size: cover;
     background-position: center;
@@ -210,7 +230,7 @@ border-radius: 10px;
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 50px;
+    height: 120px;
     border-radius: 15px 15px 0 0;
     flex-wrap: wrap;
 }
@@ -241,32 +261,44 @@ border-radius: 10px;
     border-radius: 15px 15px 0 0;
     flex-wrap: wrap;
 }
+.colorBleu{
+    color: #0065fc;
+}
+.colorGris{
+    color: gray;
+}
 /* Filtre*/
 .blocFiltre{
     display: flex;
+    flex-wrap: wrap;
     width: fit-content;
     column-gap: 50px;
     margin-top: 50px;
     margin-bottom: 40px;
     font-weight: bold;
-    
 }
-.filtretextIcons:hover >.filtretexte{
+.unFiltre {
+    border: #f2f2f2 2px solid;
+    border-radius: 40px;
+}
+
+.unFiltre:hover > .filtreTexte{
     color: #0065fc;
 }
-.filtreTexteIcons:hover >.filtreIcons{
+.unFiltre:hover > .filtreIcons{
     color: white;
     background-color: #0065fc;
 }
 .filtreTexte{
     height: 50px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
     border-radius: 0 25px 25px 0;
+    
 }
 .filtreIcons{
 display: flex;
-border-radius: 50%;
+border-radius: 50px;
 width: 50px;
 height: 50px;
 color: #0065fc;
@@ -283,9 +315,10 @@ border-radius: 30px;
 }
 /*Populaire*/
 .blocPopulaires{
+    display: flex;
     padding-left: 20px;
     padding-right: 20px;
-    float:right;
+    justify-content: center;
 }
 .blocPopulaires12{
     margin-bottom: 22px;
@@ -328,40 +361,47 @@ border-radius: 30px;
     border-radius: 15px 0 0 15px;
     flex-wrap: wrap;
 }
-/*Avtivités*/
-.Activités{
+/*Avtivites*/
+.Activites{
     margin-top: 50px;
     margin-bottom: 50px;
 }
-.blocActivités{
+.blocActivites{
+    display: flex;
     width: 100%;
     height: 600px;
+    justify-content: space-between;
 }
-.blocActivités2356{
-    width: 100%;
+.blocActivites2356{
+    width: 23%;
     height: 600px;
 }
 
 
-.cubeActivités{
-width: auto;
+.cubeActivites{
+width: 23%;
 border-radius: 15px;
 box-shadow: 5px 5px 5px 1px #f2f2f2;
 }
-.cubeActivités2356{
-    width: 23px;
+.hauteurTitre{
+    height: 70px;
+
+}
+
+.cubeActivites2356{
+    width: 100;
     border-radius: 15px;
     box-shadow: 5px 5px 5px 1px #f2f2f2
 }
-.titreActivités{
+.titreActivites{
     display: flex;
     height: 70px;
-    justify-content:center ;
+    justify-content:start ;
     align-items: center;
     padding-left: 5%;
     width: 95%;
 }
-.imgActivités1{
+.imgActivites1{
     background-image: url("./images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
     background-size: cover;
     background-position: center;
@@ -370,7 +410,7 @@ box-shadow: 5px 5px 5px 1px #f2f2f2;
     border-radius: 15px 15px 0 0 ;
     flex-wrap: wrap;   
 }
-.imgActivités2{
+.imgActivites2{
     background-image: url("./images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
     background-size: cover;
     background-position: center;
@@ -380,14 +420,41 @@ box-shadow: 5px 5px 5px 1px #f2f2f2;
     flex-wrap: wrap;   
 
 
-}.imgActivités3{
+}.imgActivites3{
     background-image: url("./images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
     background-size: cover;
-    background-position: center;
+    background-position:left;
     width: 100%;
     height: 150px;
-    border-radius: 15px 15px 0 0 ;
-    flex-wrap: wrap;   
-
-
+    border-radius: 15px 15px 0 0 ; 
+    flex-wrap: wrap;
+    float: left;
 }
+.imgActivites4{
+    background-image: url("./images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
+    background-size: cover;
+    background-position:left;
+    width: 100%;
+    height: 530px;
+    border-radius: 15px 15px 0 0 ; 
+    flex-wrap: wrap;
+}
+.imgActivites5{
+    background-image: url("./images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg");
+    background-size: cover;
+    background-position:left;
+    width: 100%;
+    height: 200px;
+    border-radius: 15px 15px 0 0 ; 
+    flex-wrap: wrap;
+}
+.imgActivites6{
+    background-image: url("./images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
+    background-size: cover;
+    background-position:left;
+    width: 100%;
+    height: 200px;
+    border-radius: 15px 15px 0 0 ; 
+    flex-wrap: wrap;
+}
+
