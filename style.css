@@ -1,6 +1,8 @@
 /* general */
 html, body{
     font-family: raleway;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 .flexCentre {
 	display: flex;
@@ -184,11 +186,14 @@ border-radius: 10px;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    width: 50%;
     flex-wrap: wrap;
 
 }
 .bloc2 {
+
+
+}
+.textePopulaires{
     
 }
 .blocHebergements{
@@ -315,19 +320,21 @@ border-radius: 30px;
 }
 /*Populaire*/
 .blocPopulaires{
-    display: flex;
     padding-left: 20px;
     padding-right: 20px;
     justify-content: center;
+    width: 30%;
 }
 .blocPopulaires12{
     margin-bottom: 22px;
 }
 .cubePopulaires{
+    display: flex;
     background-color: white;
     height: auto;
     padding: 1% 0 1%  1%;
     border-radius: 20px;
+
 }
 .cubeDetailsPopulaires{
     width: 60%;
@@ -414,17 +421,16 @@ box-shadow: 5px 5px 5px 1px #f2f2f2;
     background-image: url("./images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
     background-size: cover;
     background-position: center;
-    width: 100%;
+    width: 70%;
     height: 250px;
-    border-radius: 15px 15px 0 0 ;
-    flex-wrap: wrap;   
-
-
-}.imgActivites3{
+    border-radius: 15px 15px 0 0;
+    flex-wrap: wrap;
+}
+.imgActivites3{
     background-image: url("./images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
     background-size: cover;
     background-position:left;
-    width: 100%;
+    width: 30%;
     height: 150px;
     border-radius: 15px 15px 0 0 ; 
     flex-wrap: wrap;
