@@ -60,14 +60,6 @@ html, body{
     background-color: #f2f2f2;
 }
 /* NAV */
-
-.sizeliens{
-    width: 45%;
-}
-.sizelien{
-    width: 140px;
-    height: 99px;
-}
 .colorliens13 {
     color: blue;
 }
@@ -208,6 +200,11 @@ border-radius: 10px;
     border-radius: 20px;
     flex-wrap: wrap;
 }
+.cubeHebergements:hover{
+cursor: pointer;
+transform: scale(1.1);
+
+}
 .imgHebergements1{
     display: flex;
     background-image: url("./images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
@@ -335,6 +332,10 @@ border-radius: 30px;
     border-radius: 20px;
 
 }
+.cubePopulaires:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
 .cubeDetailsPopulaires{
     width: 60%;
     padding-left: 5%;
@@ -370,7 +371,7 @@ border-radius: 30px;
 /*Avtivites*/
 .Activites{
     display: flex;
-    margin-top: 50px;
+    margin-top: 30px;
     margin-bottom: 50px;
     flex: wrap;
 }
@@ -382,29 +383,39 @@ border-radius: 30px;
 
 }
 .blocActivites2356{
-    width: 100%;
+    width: 80%;
     border-radius: 15px;
     padding-right: 15px;
     padding-left: 15px;
     
 }
 .cubeActivites{
-width: 70%;
+width: 100%;
 border-radius: 15px;
-box-shadow: 5px 5px 5px 1px #f2f2f2;
+box-shadow: 3px 3px 3px 1px #f2f2f2;
 padding left: 15px;
 padding-right: 15px;
 flex-wrap: wrap;
+}
+.cubeActivites:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+     
 }
 .hauteurTitre{
  height: 70px;
 }
 
 .cubeActivites2356{
-    width: 70%;
+    width: 80%;
     border-radius: 15px;
-    box-shadow: 5px 5px 5px 1px #f2f2f2
+    box-shadow: 3px 3px 3px 1px #f2f2f2
     
+}
+.cubeActivites2356:hover{
+    cursor: pointer;
+transform: scale(1.03);
+
 }
 .titreActivites{
     display: flex;
@@ -447,7 +458,7 @@ flex-wrap: wrap;
     background-image: url("./images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
     background-size: cover;
     background-position:left;
-    width: 100%;
+    width: 70%;
     height: 530px;
     border-radius: 15px 15px 0 0 ; 
     flex-wrap: wrap;
@@ -467,9 +478,9 @@ flex-wrap: wrap;
     background-image: url("./images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
     background-size: cover;
     background-position:left;
-    width: 100%;
+    width: 70%;
     height: 150px;
-    border-radius: 10px 10px 0 0 ; 
+    border-radius: 5px 5px 0 0 ; 
     flex-wrap: wrap;   
 }
 /* footer*/
@@ -479,11 +490,26 @@ flex-wrap: wrap;
     margin-top: 200px;
     justify-content: space-between;
     align-items: center;
-    
+    flex-wrap: wrap;
 }
 .blocfooter{
     height: 150px;
     padding-left: 5%;
     padding-right: 15%;
+    
+}
+.tabletteSizePop{
+
+    margin-top: 0;
+}
+@media screen and (max-width: 1295px){
+
+.tabletteSizeTitrePop{
+
+    margin-top: 0;
+}
+    
+}
+@media screen and (max-width:1112px){
     
 }
