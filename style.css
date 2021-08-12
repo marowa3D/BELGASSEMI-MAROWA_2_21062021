@@ -128,23 +128,30 @@ body {
   background-color: #0065fc;
   text-align: center;
 }
+.buttonSearch i {
+  display: none;
+}
 .barreNavigation {
   display: flex;
   width: 100%;
   justify-content: space-between;
-  height: 50px;
+  height: fit-content;
+  flex-wrap: wrap;
+  position: relative;
 }
 .menuNavigation {
   display: flex;
-  justify-content: space-between;
-  width: 100%;
+  justify-content: space-around;
   flex-wrap: wrap;
-  align-content: center;
+  column-gap: 50px;
 }
 /*logoreservia*/
 .logo {
-  height: 100%;
+  height: 50px;
   flex-wrap: wrap;
+}
+.logo > * {
+  height: 100%;
 }
 .info {
   display: flex;
@@ -259,6 +266,7 @@ body {
   flex-wrap: wrap;
   width: fit-content;
   column-gap: 50px;
+  row-gap: 10px;
   margin-top: 50px;
   margin-bottom: 40px;
   font-weight: bold;
@@ -452,7 +460,8 @@ body {
   background-size: cover;
   background-position: left;
   width: 100%;
-  height: 150px;  flex-wrap: wrap;
+  height: 150px;
+  flex-wrap: wrap;
 }
 /* footer*/
 .footer {

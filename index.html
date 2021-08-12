@@ -11,6 +11,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style_responsive.css" />
     <title>Reservia</title>
     <script
       src="https://kit.fontawesome.com/49fe9d22e4.js"
@@ -25,13 +26,15 @@
 
   <body>
     <nav class="barreNavigation">
-      <img class="logo" src="images\logo\Reservia@3x.png" alt="logo reservia" />
+      <div class="logo">
+        <img src="images\logo\Reservia@3x.png" alt="logo reservia" />
+      </div>
       <div class="menuNavigation">
         <h4><a class="colorBleu" href="#hebergement">Hebergement</a></h4>
 
         <h4><a href="#activites">activités</a></h4>
 
-        <h3><a class="colorBleu">s'inscrire</a></h3>
+        <h3 class="menu_inscrire"><a class="colorBleu">s'inscrire</a></h3>
       </div>
     </nav>
 
@@ -55,7 +58,10 @@
             value="Marseille, France"
           />
         </div>
-        <button class="buttonSearch">rechercher</button>
+        <button class="buttonSearch">
+          <p>Rechercher</p>
+          <i class="fas fa-search"></i>
+        </button>
       </div>
     </section>
 
