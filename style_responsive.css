@@ -24,16 +24,12 @@
 	.buttonSearch {
 		width: 50px;	
 	}
+	.blocfooter{
+		margin-top: 50px;
+	}
 }
 @media screen and (max-width:770px) {
-	.barreNavigation{
-		align-items: flex-start;
-		margin-left: 20%;
-	}
-	.blocRecherche{
-		align-items: flex-start;
-		height: auto;
-	}
+	
 	.blocFiltre{
 		flex-direction: column;
 		height: auto;
@@ -43,19 +39,22 @@
 		align-items: flex-start;
 
 	}
+	.blocHebergements{
+		flex-direction: column;
+		margin-bottom: 0;
+	
+		
+	}
 	.sizeHebergements{
 		width: 90%;
 
 	} 
-	.sizePopulaires{
-		margin-left: 20%;
-
-	}
 	
 	.bloc1{
 
 	flex-direction: column;
 	margin-bottom: 0;
+	
 	
 
 	}
@@ -92,6 +91,10 @@
 	.cubeActivites2356{
 		margin-bottom: 50px;
 	}
+	.blocPopulaires{
+		
+		
+	}
 	.imgActivites1,
 	.imgActivites2,
 	.imgActivites3,
@@ -110,3 +113,10 @@
 
 	
 }
+
+@media screen and (max-width:385px) {
+
+
+}
+	
+
