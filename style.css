@@ -53,9 +53,6 @@ body {
 .bacKBleu {
   background-color: #0065fc;
 }
-.bacKGris {
-  background-color: #f2f2f2;
-}
 /* NAV */
 
 .colorliens13 {
@@ -160,31 +157,30 @@ body {
 }
 
 /*Hebergements*/
-.sizeHebergements {
-  flex: 2;
-  height: 650px;
-  margin-right: 20px;
-  border-radius: 10px;
+.hebergements {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  column-gap: 10px;
+  row-gap: 5px;
 }
-.sizePopulaires {
-  flex: 1;
-  height: 650px;
-  margin-left: 20px;
-  border-radius: 10px;
-}
+
 .bloc1 {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
   flex-wrap: wrap;
 }
-.textePopulaires {
-}
+
 .blocHebergements {
   padding-left: 20px;
   padding-right: 20px;
   flex-wrap: wrap;
   flex-direction: column;
+  background-color: #f2f2f2;
+  height: 650px;
+  margin-right: 20px;
+  border-radius: 10px;
 }
 
 .cubeHebergements {
@@ -307,10 +303,12 @@ body {
 }
 /*Populaire*/
 .blocPopulaires {
-  padding-left: 20px;
   padding-right: 20px;
   justify-content: center;
   width: 30%;
+  background-color: #f2f2f2;
+  height: 650px;
+  border-radius: 10px;
 }
 .blocPopulaires12 {
   margin-bottom: 22px;
