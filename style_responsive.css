@@ -72,12 +72,10 @@
   }
 
   .bloc1 {
-    flex-direction: column;
     margin-bottom: 0;
   }
 
   .cubePopulaires {
-    flex-direction: column;
     margin-bottom: 0;
   }
 
@@ -95,7 +93,6 @@
     flex-direction: column;
     height: auto;
     align-items: flex-start;
-    margin-top: 200px;
   }
   .cubeActivites {
     width: 100%;
@@ -126,6 +123,7 @@
     border-left: none;
     margin-right: 0px;
     margin-left: 0px;
+  
   }
 }
 
@@ -143,5 +141,8 @@
     font-family: "raleway", sans-serif;
   }
   .cubeActivites {
+  }
+  .blocFiltre{
+	display: flex;
   }
 }

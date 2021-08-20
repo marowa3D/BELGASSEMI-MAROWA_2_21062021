@@ -4,6 +4,8 @@ body {
   font-family: raleway;
   padding-left: 30px;
   padding-right: 30px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 .flexCentre {
   display: flex;
@@ -154,6 +156,12 @@ body {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
+  
+}
+.iconInfo{
+  border: #f2f2f2 10px solid;
+  border-radius: 40px;
+
 }
 
 /*Hebergements*/
@@ -302,7 +310,12 @@ body {
   margin-right: 20px;
 }
 /*Populaire*/
+.iconPopulaires{
+  padding-right: 15%;
+
+}
 .blocPopulaires {
+
   padding-right: 20px;
   justify-content: center;
   width: 30%;
@@ -358,9 +371,10 @@ body {
 /*Avtivites*/
 .Activites {
   display: flex;
-  margin-top: 30px;
+  margin-top: 50px;
   margin-bottom: 50px;
   flex-wrap: wrap;
+  
 }
 .blocActivites {
   display: flex;
@@ -465,7 +479,7 @@ body {
 .footer {
   display: flex;
   height: 300px;
-  margin-top: 200px;
+  margin-top: 50px;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
@@ -474,5 +488,8 @@ body {
   height: 150px;
   padding-left: 5%;
   padding-right: 15%;
+}
+.bacKGris{
+  background-color: #f2f2f2;
 }
 /*responsive*/
