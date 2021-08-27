@@ -1,4 +1,4 @@
-/* BODY*/
+/* HEAD*/
 html,
 body {
   font-family: raleway;
@@ -143,6 +143,7 @@ body {
   justify-content: space-around;
   flex-wrap: wrap;
   column-gap: 50px;
+  cursor: pointer;
 }
 /*logoreservia*/
 .logo {
@@ -160,7 +161,6 @@ body {
 }
 .iconInfo{
   border: #f2f2f2 10px solid;
-  border-radius: 40px;
 
 }
 
@@ -478,11 +478,12 @@ body {
 /* footer*/
 .footer {
   display: flex;
-  height: 300px;
   margin-top: 50px;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+  padding-top: 25px ;
+  padding-bottom:25px ;
 }
 .blocfooter {
   height: 150px;

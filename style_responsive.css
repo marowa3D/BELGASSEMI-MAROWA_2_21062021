@@ -20,8 +20,12 @@
   .menuNavigation {
     width: 100%;
   }
+  .blocFiltre{
+    display: flex;
+    justify-content: center;
+  }
 
-  .buttonSearch p {
+  .buttonSearch span {
     display: none;
   }
 
@@ -31,8 +35,8 @@
 
   .buttonSearch {
     width: 50px;
-    min-width: 50;
-    max-width: 50;
+    min-width: 50px;
+    max-width: 50px;
     border-radius: 10px 10px;
   }
   .blocfooter {
