@@ -1,12 +1,6 @@
 @media only screen and (max-width: 1024px) {
   html,
-  body {
-    padding: 0;
-  }
-  body {
-    padding-left: 2px;
-    padding-right: 2px;
-  }
+  
   .menu_inscrire {
     position: absolute;
     top: 0;
@@ -22,7 +16,7 @@
   }
   .blocFiltre{
     display: flex;
-    justify-content: center;
+    
   }
 
   .buttonSearch span {
@@ -55,12 +49,13 @@
   .imgPopulaires1,
   .imgPopulaires2,
   .imgPopulaires3 {
-    width: 100%;
+    width: 60%;
+    background-position: center;
   }
 }
 @media screen and (max-width: 770px) {
   .blocFiltre {
-    flex-direction: column;
+    
     height: auto;
     align-items: flex-start;
   }
@@ -68,6 +63,10 @@
     align-items: flex-start;
   }
   .blocHebergements {
+    flex: none;
+    width: 90%;
+    margin-right: 0;
+    margin-top: 50px;
     flex-direction: column;
     margin-bottom: 0;
   }
@@ -81,6 +80,8 @@
 
   .cubePopulaires {
     margin-bottom: 0;
+    
+
   }
 
   .cubeHebergements {
@@ -88,15 +89,19 @@
     margin-bottom: 50px;
   }
   .blocPopulaires{
-	  padding-left: 0;
-	 
-	
-	  
+	  padding-left: 0px;
+    margin-top: 0%; 
+  }
+  .cubeDetailsPopulaires{
+    width: 100%;
+    
   }
   .blocActivites {
     flex-direction: column;
     height: auto;
     align-items: flex-start;
+    width: 100%;
+  
   }
   .cubeActivites {
     width: 100%;
@@ -123,15 +128,12 @@
     align-items: flex-start;
     height: auto;
     width: 100%;
-    border-right: none;
-    border-left: none;
-    margin-right: 0px;
-    margin-left: 0px;
   
   }
+ 
 }
 
-@media screen and (max-width: 419px) {
+@media screen and (max-width: 375px) {
   .menuNavigation {
     margin: auto;
   }
@@ -140,13 +142,26 @@
     border-radius: 10px 10px;
   }
   .body {
-    margin: 0;
-    padding: 0;
+    margin:0;
     font-family: "raleway", sans-serif;
   }
-  .cubeActivites {
+  .blocActivites {
+    width: 100%;
   }
   .blocFiltre{
 	display: flex;
   }
+  .bloc1{
+    width: 100%;
+  }
+  .blocActivites > * {
+    height: fit-content;
+}
+.blocPopulaires
+{
+  width: 90%;
+  flex: none;
+  margin-left: 0;
+  padding: 5%;
+}
 }
