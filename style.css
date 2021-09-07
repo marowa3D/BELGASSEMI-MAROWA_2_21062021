@@ -2,8 +2,9 @@
 html,
 body {
   font-family: raleway;
-  margin:0;
- 
+  padding-left: 15px;
+  padding-right: 15px;
+  
 }
 .flexCentre {
   display: flex;
@@ -55,6 +56,10 @@ body {
 }
 /* NAV */
 
+.sizeLien{
+  width: 140px;
+  height: 99px;
+}
 .colorliens13 {
   color: blue;
 }
@@ -62,11 +67,14 @@ body {
   color: black;
 }
 .bordureNav {
-  border-top: 1px solid blue;
+  border-top: 3px solid blue;
 }
-.bordureNav {
-  border-top: 1px solid transparent;
+.bordureNav23 {
+  display: flex;
+  border-top: 3px solid #f2f2f2;
+
 }
+
 .marglogo {
   margin-bottom: 7px;
 }
@@ -142,6 +150,7 @@ body {
   flex-wrap: wrap;
   column-gap: 50px;
   cursor: pointer;
+  margin-top: 10px;
 }
 /*logoreservia*/
 .logo {
@@ -187,6 +196,7 @@ body {
   height: 650px;
   margin-right: 20px;
   border-radius: 10px;
+  
 }
 
 .cubeHebergements {
@@ -196,6 +206,7 @@ body {
   padding: 1%;
   border-radius: 20px;
   flex-wrap: wrap;
+  margin-bottom: 20px;
 }
 .cubeHebergements:hover {
   cursor: pointer;
@@ -272,9 +283,10 @@ body {
   margin-top: 50px;
   margin-bottom: 40px;
   font-weight: bold;
+
 }
 .unFiltre {
-  border: #f2f2f2 2px solid;
+  border:#f2f2f2 2px solid;
   border-radius: 40px;
 }
 
@@ -319,7 +331,7 @@ body {
 
 }
 .blocPopulaires {
-
+  padding-left: 20px;
   padding-right: 20px;
   justify-content: center;
   width: 30%;
@@ -392,6 +404,7 @@ body {
   border-radius: 15px;
   padding-right: 15px;
   padding-left: 15px;
+  
 }
 .cubeActivites {
   display: flex;
@@ -402,6 +415,7 @@ body {
   box-shadow: 0px 0px  #f2f2f2;
   flex-wrap: wrap;
   overflow: hidden;
+  
 }
 .cubeActivites:hover {
   cursor: pointer;
@@ -416,6 +430,7 @@ body {
   border-radius: 15px;
   box-shadow: 3px 3px 3px 1px #f2f2f2;
   overflow: hidden;
+  margin-bottom: 50px;
 }
 .cubeActivites2356:hover {
   cursor: pointer;
@@ -428,13 +443,14 @@ body {
   align-items: center;
   padding-left: 5%;
   width: 95%;
+  
 }
 .imgActivites1 {
   background-image: url("./images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
   background-size: cover;
   background-position: center;
   width: 100%;
-  height: 530px;
+  height: 480px;
   flex-wrap: wrap;
 }
 .imgActivites2 {
@@ -442,8 +458,9 @@ body {
   background-size: cover;
   background-position: center;
   width: 100%;
-  height: 200px;
+  height: 150px;
   flex-wrap: wrap;
+
 }
 .imgActivites3 {
   background-image: url("./images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
@@ -459,7 +476,7 @@ body {
   background-size: cover;
   background-position: center;
   width: 100%;
-  height: 530px;
+  height: 480px;
   flex-wrap: wrap;
 }
 .imgActivites5 {
@@ -496,5 +513,11 @@ body {
 }
 .bacKGris{
   background-color: #f2f2f2;
+}
+.lienFoot{
+  color: black;
+}
+.divlienFoot{
+  height: 30px;
 }
 /*responsive*/
