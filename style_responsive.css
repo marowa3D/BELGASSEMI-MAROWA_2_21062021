@@ -38,6 +38,7 @@
   }
   .hebergements > * {
     height: fit-content;
+    height: -moz-max-content;
   }
   .hebergements {
     flex-direction: column-reverse;
@@ -78,12 +79,6 @@
     margin-bottom: 0;
   }
 
-  .cubePopulaires {
-    margin-bottom: 0;
-    
-
-  }
-
   .cubeHebergements {
     width: 100%;
     margin-bottom: 50px;
@@ -105,7 +100,7 @@
   }
   .cubeActivites {
     width: 100%;
-    margin-bottom: 50px;
+    
   }
   .blocActivites2356 {
     width: 100%;
@@ -167,8 +162,13 @@
   padding-left: 15px;
 }
 .blocPopulaires12{
-  padding-left: 20px;
-  margin-bottom: 22px;
-  
+  margin-bottom: 22px; 
+}
+.cubeActivites{
+  border-radius: 15px 0 0 15px;
+}
+.iconPopulaires{
+  padding-right: 0;
+
 }
 }
