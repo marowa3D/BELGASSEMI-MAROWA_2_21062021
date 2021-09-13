@@ -1,0 +1,103 @@
+body {
+  width: 100%;
+}
+
+body > * {
+  padding: 1rem;
+  padding-left: 2rem;
+}
+
+#barre_navigation {
+  position: relative;
+  padding-top: 3rem;
+}
+
+#logo {
+  display: block;
+  position: absolute;
+  left: 1rem;
+  top: 0;
+}
+
+#lien_inscrire {
+  display: block;
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  width: auto;
+}
+
+#liens_menu {
+  width: 100%;
+  justify-content: space-around;
+  height: 2rem;
+}
+
+.un_lien {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border-top: unset;
+  border-bottom: solid #f2f2f2;
+}
+
+.un_lien:hover,
+.un_lien:focus {
+  border: unset;
+  border-bottom: solid #0065fc;
+}
+
+#bloc_filtres {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#filtres {
+  row-gap: 1rem;
+}
+
+#bloc_hebergements {
+  flex-direction: column-reverse;
+}
+
+#bloc_hebergements > div {
+  width: 100%;
+  padding: unset;
+  padding: 1rem 0 1rem 0;
+  background-color: #fff;
+}
+
+.un_heb_marseille,
+.un_heb_populaire {
+  width: 100%;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+#activites_liste {
+  flex-direction: column;
+  height: auto;
+  row-gap: 2rem;
+}
+
+#activites_liste > * {
+  width: 100%;
+}
+
+#activite_fort_pomegues,
+#activite_parc_longchamp {
+  width: 100%;
+  height: 100%;
+}
+
+#activite_iles_frioul,
+#activite_notre_dame {
+  width: 100%;
+  height: 100%;
+}
+
+footer {
+  flex-direction: column;
+  row-gap: 2rem;
+}
