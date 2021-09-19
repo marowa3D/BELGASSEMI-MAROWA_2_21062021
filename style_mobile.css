@@ -5,6 +5,7 @@ body {
 body > * {
   padding: 1rem;
   padding-left: 2rem;
+  
 }
 
 #barre_navigation {
@@ -51,6 +52,7 @@ body > * {
 #bloc_filtres {
   flex-direction: column;
   align-items: flex-start;
+  padding-right: 8px;
 }
 
 #filtres {
@@ -73,6 +75,9 @@ body > * {
   width: 100%;
   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
     0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+#entete_populaires > i{
+  column-gap: 15rem;
 }
 
 #activites_liste {
@@ -109,11 +114,15 @@ footer {
   flex-direction: column;
   row-gap: 2rem;
 }
+#bloc_recherche > button{
+  border-radius: 15px 15px;
+}
 
-#bloc_recherche > button > div {
+#bloc_recherche > button > span {
   display: none;
 }
 
 #bloc_recherche > button > i {
   display: block;
+
 }
