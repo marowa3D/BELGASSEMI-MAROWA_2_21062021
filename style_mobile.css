@@ -80,6 +80,7 @@ body > * {
   column-gap: 15rem;
 }
 
+
 #activites_liste {
   flex-direction: column;
   height: auto;
