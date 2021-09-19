@@ -85,19 +85,35 @@ body > * {
   width: 100%;
 }
 
+.une_activite {
+  height: 250px;
+}
+
+.une_activite_img {
+  height: 80% !important;
+}
+
 #activite_fort_pomegues,
 #activite_parc_longchamp {
   width: 100%;
-  height: 100%;
+  height: 250px;
 }
 
 #activite_iles_frioul,
 #activite_notre_dame {
   width: 100%;
-  height: 100%;
+  height: 250px;
 }
 
 footer {
   flex-direction: column;
   row-gap: 2rem;
+}
+
+#bloc_recherche > button > div {
+  display: none;
+}
+
+#bloc_recherche > button > i {
+  display: block;
 }

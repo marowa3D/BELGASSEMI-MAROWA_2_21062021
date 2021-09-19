@@ -74,10 +74,17 @@ body > * {
 
 #bloc_recherche > button {
   background-color: #0065fc;
-  color: #fff;
   padding-left: 1rem;
   padding-right: 1.5rem;
   cursor: pointer;
+}
+
+#bloc_recherche > button * {
+  color: #fff;
+}
+
+#bloc_recherche > button > i {
+  display: none;
 }
 
 #icone_bloc_recherche {
@@ -165,6 +172,10 @@ body > * {
   width: 65%;
 }
 
+#heb_populaires {
+  width: fit-content;
+}
+
 #heb_marseille_liste {
   display: flex;
   flex-wrap: wrap;
@@ -182,6 +193,10 @@ body > * {
   background-color: #fff;
   border-radius: 1rem;
   padding-bottom: 0.8rem;
+}
+
+.un_heb_marseille:focus {
+  border: solid #0065fc;
 }
 
 .un_heb_marseille_img {
@@ -249,12 +264,17 @@ body > * {
   background-color: #fff;
 }
 
+.un_heb_populaire:focus {
+  border: solid #0065fc;
+}
+
 .un_heb_populaire_img {
   width: 45%;
   height: 100%;
   border-top-left-radius: 1rem;
   border-bottom-left-radius: 1rem;
   overflow: hidden;
+  flex-shrink: 0;
 }
 
 .un_heb_populaire_img img {
@@ -286,6 +306,10 @@ body > * {
   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
     0 4px 6px -2px rgba(0, 0, 0, 0.05);
   position: relative;
+}
+
+.une_activite:focus {
+  border: solid #0065fc;
 }
 
 .une_activite_img {
@@ -324,6 +348,11 @@ body > * {
 #activite_notre_dame {
   width: 100%;
   height: 45%;
+}
+
+#activite_fort_pomegues > .une_activite_img,
+#activite_parc_longchamp > .une_activite_img {
+  height: 82%;
 }
 
 #activite_iles_frioul > .une_activite_img,
