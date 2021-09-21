@@ -87,7 +87,6 @@ body > * {
 }
 
 
-
 #bloc_recherche > button * {
   color: #fff;
 }
@@ -102,6 +101,9 @@ body > * {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+#icone_bloc_info > i {
+  color: #0065fc;
 }
 
 #bloc_filtres {
