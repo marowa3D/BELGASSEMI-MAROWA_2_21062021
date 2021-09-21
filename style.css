@@ -78,6 +78,15 @@ body > * {
   padding-right: 1.5rem;
   cursor: pointer;
 }
+#bloc_recherche > button:hover{
+  color: #0065fc;
+  background-color: #f2f2f2;
+}
+#bloc_recherche > button > span:hover{
+  color: #0065fc;
+}
+
+
 
 #bloc_recherche > button * {
   color: #fff;

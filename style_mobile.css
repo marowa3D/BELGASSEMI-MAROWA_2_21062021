@@ -127,3 +127,6 @@ footer {
   display: block;
 
 }
+#bloc_recherche > button > i:hover{
+  color: #0065fc;
+}
