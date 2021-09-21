@@ -26,6 +26,7 @@ body > * {
   right: 1rem;
   top: 1rem;
   width: auto;
+  border-bottom: none;
 }
 
 #liens_menu {
@@ -35,8 +36,8 @@ body > * {
 }
 
 .un_lien {
-  height: 100%;
-  width: 100%;
+  height: auto;
+  width: 75%;
   display: flex;
   justify-content: center;
   border-top: unset;
@@ -127,6 +128,7 @@ footer {
   display: block;
 
 }
-#bloc_recherche > button > i:hover{
+#bloc_recherche:hover > button> i{
   color: #0065fc;
 }
+

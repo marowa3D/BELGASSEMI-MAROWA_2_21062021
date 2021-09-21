@@ -42,6 +42,7 @@ body > * {
 #lien_inscrire {
   font-weight: bold;
   color: #0065fc;
+  border-top: none;
 }
 
 .un_lien:focus {
@@ -86,7 +87,6 @@ body > * {
   color: #0065fc;
 }
 
-
 #bloc_recherche > button * {
   color: #fff;
 }
@@ -124,7 +124,7 @@ body > * {
   cursor: pointer;
   
 }
-#filtres:hover > div{
+#filtres > div:hover{
   color: #0065fc;
   background-color: #f2f2f2;
   transform: scale(1.05);
@@ -286,7 +286,10 @@ body > * {
   background-color: #fff;
   margin-bottom: 15px;
 }
-
+.note_heb{
+  margin-top: 65px;
+  height: 15%;
+}
 .un_heb_populaire:focus {
   border: solid #0065fc;
 }
