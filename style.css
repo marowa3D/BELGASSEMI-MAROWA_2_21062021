@@ -76,14 +76,14 @@ body > * {
 #bloc_recherche > button {
   background-color: #0065fc;
   padding-left: 1rem;
-  padding-right: 1.5rem;
+  padding-right: 1rem;
   cursor: pointer;
 }
-#bloc_recherche > button:hover{
+#bloc_recherche > button:hover {
   color: #0065fc;
   background-color: #f2f2f2;
 }
-#bloc_recherche > button > span:hover{
+#bloc_recherche > button > span:hover {
   color: #0065fc;
 }
 
@@ -122,15 +122,12 @@ body > * {
   column-gap: 1rem;
   flex-wrap: wrap;
   cursor: pointer;
-  
 }
-#filtres > div:hover{
+#filtres > div:hover {
   color: #0065fc;
   background-color: #f2f2f2;
   transform: scale(1.05);
-  
 }
-
 
 #filtres > div {
   border-radius: 1.5rem;
@@ -166,7 +163,7 @@ body > * {
 #icone_bloc_info {
   padding: 0.25rem 0.5rem 0.25rem 0.5rem;
   border: solid #f2f2f2;
-  border-radius: 50%;  
+  border-radius: 50%;
 }
 
 #bloc_hebergements {
@@ -204,7 +201,7 @@ body > * {
   row-gap: 1rem;
   margin-top: 1rem;
 }
-.Afficher_plus{
+.Afficher_plus {
   margin-top: 30px;
 }
 
@@ -212,10 +209,9 @@ body > * {
   width: 31%;
   height: fit-content;
   height: -moz-max-content;
-  padding: 0.2rem;
+  padding: 0.2rem 0.2rem 0rem 0.2rem;
   background-color: #fff;
   border-radius: 1rem;
-  padding-bottom: 0.8rem;
 }
 
 .un_heb_marseille:focus {
@@ -237,7 +233,9 @@ body > * {
 }
 
 .description_heb {
-  padding-left: 0.6rem;
+  padding: 0.6rem 0 0 0.6rem;
+  min-height: 4.3rem;
+  position: relative;
 }
 
 .titre_heb {
@@ -246,7 +244,8 @@ body > * {
 }
 
 .sous_titre_heb {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
+  margin: 0;
 }
 
 .note_heb > * {
@@ -286,9 +285,9 @@ body > * {
   background-color: #fff;
   margin-bottom: 15px;
 }
-.note_heb{
-  margin-top: 65px;
-  
+.note_heb {
+  position: absolute;
+  bottom: 0.8rem;
 }
 .un_heb_populaire:focus {
   border: solid #0065fc;
