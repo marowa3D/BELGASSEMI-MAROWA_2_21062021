@@ -36,7 +36,6 @@ body > * {
   height: 100%;
   display: flex;
   align-items: center;
-  border-top: solid #f2f2f2;
 }
 
 #lien_inscrire {
@@ -61,7 +60,7 @@ body > * {
   width: -moz-max-content;
   border-radius: 1rem;
   overflow: hidden;
-  border: solid #f2f2f2;
+  
 }
 
 #bloc_recherche * {
@@ -71,6 +70,7 @@ body > * {
 
 #bloc_recherche > input {
   padding-left: 1rem;
+  border: solid #f2f2f2;
 }
 
 #bloc_recherche > button {
