@@ -401,8 +401,3 @@ footer {
   display: block;
   margin-top: 1rem;
 }
-@media (min-width:982){
-  .un_heb_marseille{
-    width: 45%;
-  }
-}
